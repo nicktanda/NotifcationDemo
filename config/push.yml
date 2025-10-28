@@ -30,7 +30,7 @@ shared:
     encryption_key: <%= Rails.application.credentials.dig(:action_push_native, :fcm, :encryption_key)&.dump %>
 
     # Firebase project_id
-    project_id: your_project_id
+    project_id: notification-demo-80712
 
     # Set this to the number of threads used to process notifications (default: 5).
     # When the pool size is too small a HTTPX::PoolTimeoutError error will be raised.
